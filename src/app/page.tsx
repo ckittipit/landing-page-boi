@@ -488,22 +488,22 @@ export default function Home() {
               <div className="mt-6 space-y-4 text-sm text-neutral-700">
                 <div>
                   <div className="text-xs text-neutral-500">{content.emailLabel}</div>
-                  <div>kanokorn.mks@gmail.com</div>
+                  <div>kmsboi.consult@gmail.com</div>
                 </div>
                 <div>
                   <div className="text-xs text-neutral-500">{content.phoneLabel}</div>
                   <div>082-462-9791</div>
                 </div>
-                {/* <div>
+                <div>
                   <div className="text-xs text-neutral-500">Wechat</div>
                   <div>+66-82-462-9791</div>
                 </div>
                 <div>
                   <div className="text-xs text-neutral-500">Whatsapp</div>
                   <div>+66-82-462-9791</div>
-                </div> */}
+                </div>
               </div>
-              <div className="mt-8 rounded-2xl bg-neutral-100 p-4 text-xs leading-5 text-neutral-600">
+              <div className="mt-30 rounded-2xl bg-neutral-100 p-4 text-xs leading-5 text-neutral-600">
                 KMS BOI CONSULTING ให้บริการครบวงจรเกี่ยวกับการส่งเสริมการลงทุน
                 พร้อมดูแลเอกสารและการรายงานทุกขั้นตอน
               </div>
@@ -516,7 +516,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 text-sm text-neutral-500 md:flex-row md:items-center md:justify-between">
           <div className="font-semibold text-neutral-700">KMS BOI CONSULTING</div>
           <div className="flex flex-wrap gap-4">
-            <span>{content.footerEmailLabel}: kanokorn.mks@gmail.com</span>
+            <span>{content.footerEmailLabel}: kmsboi.consult@gmail.com</span>
             <span>{content.footerPhoneLabel}: 082-462-9791</span>
           </div>
         </div>
